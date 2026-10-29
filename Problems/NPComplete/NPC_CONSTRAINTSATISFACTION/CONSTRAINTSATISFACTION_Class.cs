@@ -20,8 +20,8 @@ class CONSTRAINTSATISFACTION
     public string problemDefinition {get;} = "The Constraint Satisfaction Problem is a problem in which, given a list of variables, a list of their respective nonempty domains of possible values, and a set of constraints, the goal is to determine whether there exists an assignment of values to all variables that satisfies every constraint.";
     public string inputDescription {get;} = "X, a list of distinct variables; D, a list of nonempty domains where the ith domain corresponds to the ith variable in X; and C, a set of constraint strings";
     public string outputDescription {get;} = "True or False, indicating whether there exists an assignment of values to all variables in X, such that each variable is assigned a value from its corresponding domain and all constraints are satisfied.";
-    public string source {get;} = "S. Russell and P. Norvig, “Constraint Satisfaction Problems,” in Artificial Intelligence: A Modern Approach, 3rd ed. New Jersey: Pearson, 2010, pp. 202–233.";
-    public string sourceLink {get;} = "https://aima.eecs.berkeley.edu/3rd-ed/";
+    public string source {get;} = "U. Montanari, “Networks of Constraints: Fundamental Properties and Applications to Picture Processing,” Information Sciences, vol. 7, pp. 95–132, Jan. 1974, doi: 10.1016/0020-0255(74)90008-5.";
+    public string sourceLink {get;} = "https://ics.uci.edu/~dechter/courses/ics-276/spring-19/reading/montanari.pdf";
     public string sourceFile { get; } = SourceFile.Path();
     private static readonly string _defaultInstance =
     "((x,y),({1,2},{1,2}),{\"x!=y\"})";
